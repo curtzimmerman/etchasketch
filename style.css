@@ -1,0 +1,21 @@
+* {
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Roboto';
+	font-weight: 400;
+}
+
+#header {
+	height: 10%;
+	width: 100%;
+	display: block;
+}
+
+#header h1 {
+
+	text-align: center;
+}
+
+#clearButton {
+	margin: 20px 0 10px 0;
+}
