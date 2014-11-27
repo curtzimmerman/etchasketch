@@ -1,4 +1,4 @@
-* {
+body {
 	margin: 0 auto;
 	text-align: center;
 	font-family: 'Roboto';
@@ -9,6 +9,7 @@
 	height: 10%;
 	width: 100%;
 	display: block;
+	margin-bottom: 20px;
 }
 
 #header h1 {
@@ -16,6 +17,20 @@
 	text-align: center;
 }
 
-#clearButton {
-	margin: 20px 0 10px 0;
+
+#options {
+	height: 50px;
+	margin: 0 auto;
+	margin: 20px 0 0 0;
+	display: block;
+}
+
+#options input {
+}
+
+#footer {
+	height: 50px;
+	width: 100%;
+	display: block;
+	margin-top: 20px;
 }
