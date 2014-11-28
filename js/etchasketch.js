@@ -50,11 +50,12 @@ function randomColors() {
 
 //user entered number of divs per side of wrapper
 function getSides() {
+	var num = "";
 	do {
-		var num = prompt("How many squares per side? (Between 8 and 100", 8);
-		return num;
+		num = prompt("How many squares per side? (Between 8 and 100", 8);
 	}
-	while (num <= 8 && num >= 100)
+	while (num <= 8 || num >= 100);
+	return num;
 }
 
 function selectMode() {
